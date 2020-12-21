@@ -1,10 +1,5 @@
 import pytube,sys,os
 
-def convert_to_mp3(filename):
-    clip = VideoFileClip(filename)
-    clip.audio.write_audiofile(filename[:-4] + ".mp3")
-    clip.close()
-
 print("----------\nYoutube Downloader\n\n1 - download a video\nq - quit")
 
 while 1:
