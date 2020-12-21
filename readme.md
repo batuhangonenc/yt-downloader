@@ -1,4 +1,5 @@
 needed dependencies:
-\n-pytube
+
+-pytube
 
 enjoy it !
